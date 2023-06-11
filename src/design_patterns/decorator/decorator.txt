@@ -1,0 +1,15 @@
+. it is a structural design pattern
+. suppose we have parent p and child c1 and c2 , if we want an object to have both properties of c1 and c2 then we can go for decorator pattern
+eg: if we have a car parent and sports car , luxury car children, if we want a car that needs to have properties of both sports car and luxury car
+at the same time ,we need to go for decorator pattern.
+. the decorator takes the base class and wraps the decoration logic according to other classes, eg
+if we have a base pizza and we having topping decorator which has multiple toppings like cheese, mushroom , jalapeno etc
+
+then we can take a base pizza and have cheese , mushroom , cheese, jalapeno added
+we can have some of the few posssiblilites as :
+    base pizza + cheese
+    base pizza + cheese + mushroom
+    base pizza + cheese + mushroom + cheese + jalapeno
+    base pizza + jalapeno
+    base pizza + jalapeno + cheese
+

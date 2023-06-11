@@ -1,0 +1,8 @@
+. it is a behavioural design pattern
+. it is used for notifying the subscribers , when any change in state happens, eg: if an iphone stock is back again
+then notify all the members, who subscribed for it.
+. observable is the producer and observers are the consumers
+. whenever the data is set or the state is changed, the producer notifies all the subscribers with the relevant
+information
+. it also called as publish-subscribe model.
+. the observers can register or unregister themselves from the observable
