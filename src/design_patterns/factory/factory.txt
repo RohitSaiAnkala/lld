@@ -1,0 +1,22 @@
+it is very commonly used design pattern
+it is a creational design pattern
+
+. if condition 1 is satisfied, create object 1
+. if condition 2 is satisfied, create object 2
+
+let us assume we need to get the shape at runtime , we need to use if and elseif conditons everywhere we want,
+example: if we are determining shape at 50 places, we need to keep 50 if and else if conditions instead of
+that if we seperate the code into a factory class which will decide which shape it needs to give at runtime,the code is cleaner and reused.
+
+also if we want to add later a square class which implements shape, we can add it only at 1 place that is at factory, instead of changing multiple files.
+
+when we have super classes and multiple sub-classes, and we want to determine which sub-class object needs to be created at runtime , based on the input
+factory design pattern is best used
+
+
+Factory Design Pattern Advantages
+. Factory design pattern provides approach to code for interface rather than implementation.
+. Factory pattern removes the instantiation of actual implementation classes from client code.
+   Factory pattern makes our code more robust, less coupled and easy to extend.
+   For example, we can easily change circle class implementation because client program is unaware of this.
+. Factory pattern provides abstraction between implementation and client classes through inheritance.

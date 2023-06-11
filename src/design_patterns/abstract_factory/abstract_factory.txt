@@ -1,0 +1,6 @@
+. abstract factory design pattern is a factory which produces another factory, also called factory of factories
+. it is a creational design pattern.
+. we have a factory producer , which determines which factory is required as per logic , and with that factory we can determine the respective concrete
+  class whose object needs to be created
+. Abstract Factory Pattern isolates the client code from concrete (implementation) classes.
+
