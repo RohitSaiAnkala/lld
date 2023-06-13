@@ -1,0 +1,17 @@
+. it is a creational design pattern
+. it is used to create only 1 object of the class
+  eg: dbconnection,logger,configurations etc they are unique per application
+
+. we make the constructor private
+. we define a static singleton class variable
+. we have a static getter method to give us the instance/object
+
+. we need to be cautious, while handling singleton pattern with multithreading. We need to use double-checked locking
+to create single object only, when multiple threads try to access it.
+
+. also we need to use volatile keyword
+
+ . a thread t1 can try to create a cache from the main memory  and the cpu can be taken from the thread when it is in the object creation line
+    dbConnection = new DbConnection(), if the cpu is taken before t1 executes this line and given to t2 which is accessing main memory, so the
+    dbConnection is still null and t2 creates an object, when t1 resumes execution it also creates an object.
+ . volatile keyword is used to perform read/writes from/to main memory instead of cpu cache memory

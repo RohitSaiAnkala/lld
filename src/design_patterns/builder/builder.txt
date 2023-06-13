@@ -1,0 +1,15 @@
+. it is a creational design pattern
+. it is used to configure complex objects
+. whenever we have a complex object, and we want to provide only specific fields to constructor it is difficult,
+ so it is better to use builder pattern
+. we have 4 components
+ . product
+ . builder interface
+ . concrete builder --> there are many concrete builders implementing the builder
+ . director
+. director uses the concrete builder to generate the final object
+
+
+. Builder design pattern also helps in minimizing the number of parameters in the constructor and
+  thus there is no need to pass in null for optional parameters to the constructor.
+

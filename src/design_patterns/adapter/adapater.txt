@@ -1,0 +1,8 @@
+. it is a structural design pattern. (clubbing 2 or more objects to create a bigger structure)
+. it is used to adapt 2 incompatible interfaces
+eg: we have a mobilephone and a socket, if we want to charge the mobile phone we cannot directly use socket,
+we use an adapter which connects 2 incompatible objects.
+. mostly used for conversions i.e currency converter(dollar to inr), weight converter(pound to kg), temp converter(celsius to fahrenehiet),
+ xml to json converter etc
+
+. existing interface is called adaptee.
