@@ -1,0 +1,32 @@
+
+Parking Lot
+   List<Floor>floors
+
+   parkVehicle(vehicle)
+   unparkVehicle(vehicle)
+
+Ticket
+.parkingSpot
+. vehicle
+. startTime
+
+Floor
+  number
+  largeSpots
+  mediumSpots
+  smallSpots
+
+Parking Spot
+    number
+    type
+    . Large
+    . Medium
+    . Small
+    Vehicle vehicle
+
+Vehicle
+    vehicleNumber
+    type
+    . Truck
+    . Bike
+    . Car

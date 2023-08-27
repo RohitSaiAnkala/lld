@@ -1,0 +1,45 @@
+package parking_lot;
+
+public class Vehicle {
+    private String vehicleNumber;
+    private VehicleType type;
+    private ParkingSpot parkingSpot;
+
+    public Vehicle(String vehicleNumber, VehicleType type) {
+        this.vehicleNumber = vehicleNumber;
+        this.type = type;
+    }
+
+    public String getVehicleNumber() {
+        return vehicleNumber;
+    }
+
+    public void setVehicleNumber(String vehicleNumber) {
+        this.vehicleNumber = vehicleNumber;
+    }
+
+    public VehicleType getType() {
+        return type;
+    }
+
+    public void setType(VehicleType type) {
+        this.type = type;
+    }
+
+
+    public ParkingSpot getParkingSpot() {
+        return parkingSpot;
+    }
+
+    public void setParkingSpot(ParkingSpot parkingSpot) {
+        this.parkingSpot = parkingSpot;
+    }
+
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "vehicleNumber='" + vehicleNumber + '\'' +
+                ", type=" + type +
+                '}';
+    }
+}
