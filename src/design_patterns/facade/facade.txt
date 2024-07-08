@@ -2,7 +2,7 @@
 . it is used to hide the complex system logic , and provide an interface to the client , through which the client can
   access the system.
 . facade takes the responsibility of initializing all the required objects
-. if any other step comes for eg: in create order if anyother step gets added, then we only need to add that step in
+. if any other step comes for eg: in create order if any other step gets added, then we only need to add that step in
  facade layer, it takes care of creating order
 
 . we are hiding the internal details to client, just we are exposing the method , and the facade takes care of getting

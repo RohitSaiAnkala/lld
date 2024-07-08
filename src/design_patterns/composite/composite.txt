@@ -1,0 +1,7 @@
+. It is a structural design pattern
+. Used when tree like structure objects are required
+    . a building has floors, a floor has rooms (room is the leaf)
+    . a folder may have file or folders, and file is the leaf
+. We will have an interface, both our Composite and Leaf classes will implement the interface.
+. Easy to add new type of components, in the hierarchy.
+. Code is reusable and its the best way to support hierarchial representations.
